@@ -14,67 +14,34 @@
     line-height: 1.71;
 }
 
-header{
-    background-color: var(--primary-white-color);
-}
-
-/* Logo */
-.logo{
-    color:  #000000;
-    font-family: Raleway, sans-serif;
-
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-}
-
-.web{ 
-    color: var(--accent-color);
-}
-
+/* Утилиты */
 .list{
     padding: 0;
     margin: 0;
     list-style: none;
-
 }
 
-/* site-nav */
-.site-nav{
-    margin-bottom: 0;
+/* container */
+.container{   
     display: flex;
-}
-
-.site-nav .item:not(:last-child){
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+ 
     outline: 2px solid turquoise;
-    margin-right: 50px;
 }
 
-.site-nav .link{
-    color:var(--title-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-}
-
-.site-nav .link-current{
-    text-decoration: none;  
-    color: var(--accent-color);
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color: var(--accent-color);
+.container .main-nav{
+    display: flex;
+    align-items: center;
 }
 
 /* contacts */
 
 .contacts {
     display: flex;
+    align-items: center;
+    margin-left: auto;
 }
 
 .contacts .link{
@@ -89,6 +56,62 @@ header{
     color: var(--accent-color);
 }
 
+.contacts .number{
+    margin-right:0;
+ }
+/* Logo */
+.logo{
+    margin-right: 93px;
+    color:  #000000;
+    font-family: Raleway, sans-serif;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.web{ 
+    color: var(--accent-color);
+}
+
+/* site-nav */
+.site-nav{
+    margin-bottom: 0;
+    display: flex;
+}
+
+.site-nav .item:not(:last-child){
+    margin-right: 50px;
+}
+
+.site-nav .link{
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    color:var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+}
+
+.site-nav .link-current{
+    text-decoration: none;  
+    color: var(--accent-color);
+
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+
 /* Footer */
 
 footer{
@@ -98,6 +121,7 @@ footer{
 
 footer .logo{
     color: var(--primary-white-color);
+    margin-right: 0;
 }
 
 address{
@@ -119,12 +143,6 @@ address a{
 
 address .contacts{
     color: rgba(255, 255, 255, 0.6);
+
 }
 
-/* container */
-.container{
-    margin-left: auto;
-    margin-right: auto;
-    width: 1230px;
-    outline: 2px solid turquoise;
-}
