@@ -28,8 +28,7 @@
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
- 
-    outline: 2px solid turquoise;
+
 }
 
 header .container{
@@ -55,7 +54,6 @@ header .contacts{
 .contacts .link{
     color: var(--primaty-text-color);
     text-decoration: none;
-    outline: 2px solid turquoise;
     margin-right: 50px;
 }
 
