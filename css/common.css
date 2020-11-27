@@ -14,25 +14,40 @@
     line-height: 1.71;
 }
 
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 /* Утилиты */
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
 .list{
     padding: 0;
     margin: 0;
     list-style: none;
 }
-
 /* container */
 .container{   
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-
+    padding:94px 15px;
 }
 
 header .container{
     display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .container .main-nav{
@@ -47,6 +62,10 @@ header .container{
     margin-left: auto;
 }
 
+header{
+    border-bottom: 1px solid #ECECEC;
+}
+
 header .contacts{
     display: flex;
 }
@@ -55,6 +74,8 @@ header .contacts{
     color: var(--primaty-text-color);
     text-decoration: none;
     margin-right: 50px;
+    letter-spacing: 0.02em;
+    font-weight: 400;
 }
 
 .contacts .link:hover,
@@ -64,7 +85,8 @@ header .contacts{
 
 .contacts .number{
     margin-right:0;
- }
+}
+
 /* Logo */
 .logo{
     margin-right: 93px;
@@ -119,11 +141,14 @@ header .contacts{
 
 
 /* Footer */
-
+footer .container{
+    padding:0;
+}
 footer{
     background-color: #2F303A;
-    padding: 60px;
+    padding:60px 0;
 }
+
 
 footer .logo{
     color: var(--primary-white-color);
@@ -145,10 +170,13 @@ address a{
     text-decoration: none;
     margin-top: 0;
     margin-bottom: 9px;
+    display:inline-block;
+}
+address a:last-child{
+    margin-bottom: 0;
 }
 
 address .contacts{
     color: rgba(255, 255, 255, 0.6);
-
 }
 
