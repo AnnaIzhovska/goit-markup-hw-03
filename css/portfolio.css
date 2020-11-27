@@ -20,6 +20,13 @@
     line-height: 1.62;
     letter-spacing: 0.03em;
 }
+.button{
+    margin-right: 8px;
+}
+
+.button:last-child{
+    margin-right: 0;
+}
 
 button {
     display: block;
@@ -29,12 +36,9 @@ button {
     background-color: #F5F4FA;
     padding: 6px 22px;
     margin-bottom: 0;
-    margin-right: 8px;
 }
 
-/* .button:last-child{
-    margin-right: 0;
-} */
+
 
 
 button:hover,
