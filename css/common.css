@@ -53,6 +53,7 @@ header .container{
 .container .main-nav{
     display: flex;
     align-items: center;
+
 }
 
 /* contacts */
