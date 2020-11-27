@@ -22,7 +22,8 @@
     text-align: center;
     min-height: 400px;
     padding-top: 200px;
-    padding-bottom: 200px; 
+    padding-bottom: 200px;  
+
 } 
 
 .hero-title{
@@ -34,6 +35,9 @@
     text-transform: uppercase;
     margin-bottom: 30px;
     margin-top: 0;
+    width: 696px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* hero button */

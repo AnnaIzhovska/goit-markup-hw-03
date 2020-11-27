@@ -156,12 +156,12 @@ footer .logo{
     margin-right: 0;
 }
 
-address{
+.address{
     margin-top: 20px;
+    width: 231px;
 }
 
-address a{
-    color: #FFFFFF;
+.address .link{
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -173,11 +173,16 @@ address a{
     margin-bottom: 9px;
     display:inline-block;
 }
-address a:last-child{
+
+.address .link:last-child{
     margin-bottom: 0;
 }
 
-address .contacts{
+.address>.link{
+    color:#ffffff;
+}
+
+.address>.link:nth-last-child(-n + 2){
     color: rgba(255, 255, 255, 0.6);
 }
 
