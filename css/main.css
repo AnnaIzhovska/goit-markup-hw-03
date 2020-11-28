@@ -99,9 +99,7 @@
 }
 
 /* Work */
-.work{
-    padding-top: 0;
-}
+
 .work-list{
     display: flex;
     flex-wrap: wrap;
@@ -110,7 +108,6 @@
 .work-list img{
     display: block;
 }
-
 .work-photo{
     margin-right: 30px;
 }
