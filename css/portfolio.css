@@ -33,6 +33,7 @@ button {
     display: block;
     border-radius: 4px;
     border: none;
+    outline:none;
     min-width: 73px;
     background-color: #F5F4FA;
     padding: 6px 22px;
